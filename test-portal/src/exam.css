@@ -1,0 +1,229 @@
+.nav{
+    height:100px;
+    display:flex;
+    background-color: lightskyblue;
+    color: white;
+}
+
+.nav h1{
+    margin: auto;
+}
+
+.nav .profile{
+    margin-top: 20px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.nav .timer{
+    background-color: black;
+    padding: 6px 8px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size:20px;
+    margin-bottom: 5px;
+}
+
+.body{
+    /* border: 1px solid black; */
+    height:91vh;
+    display:flex;
+    overflow: hidden;
+}
+/* for right started */
+.right{
+    width: 80vw;
+    /* border: 1px solid red; */
+    height:88vh;
+}
+.right .questionsection{
+    /* border: 1px solid black; */
+    padding: 20px;
+    height:600px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+}
+.right .optionsection{
+    /* border: 1px solid yellow; */
+    height:400px;
+    font-size: 20px;
+}
+.right .optionsection form{
+    margin-top: 70px;
+}
+.right .optionsection div{
+    margin-left: 30px;
+    padding-left:10px;
+    cursor: pointer;
+}
+.right .optionsection .options:hover{
+    background-color: lightgray;
+}
+.right .optionsection input{
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.somebuttons{
+    margin-top: 20px;
+    width: auto;
+    display: flex;
+}
+.somebuttons:hover{
+    background-color: white;
+}
+.somebuttons .save{
+    padding: 5px 10px;  
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color:  #2EE59D;
+	background-color: #fff;
+    border: 1px solid  #2EE59D;
+    transition-duration: 0.5s;
+}
+
+.somebuttons .save a{
+    color:  #2EE59D;
+    text-decoration:none;
+}
+
+.somebuttons .save:hover{
+    background-color: #2EE59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+}
+
+.submit{
+   background-color: transparent;
+   border: none;
+   position: absolute;
+   top: 45%;
+   left: 50%;
+}
+
+.submit a{
+    color:  #2EE59D;
+    text-decoration:none;
+    padding: 5px 10px;  
+    font-size: 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color:  #2EE59D;
+	background-color: #fff;
+    border: 1px solid  #2EE59D;
+    transition-duration: 0.4s;
+}
+
+.submit:hover > a{
+    background-color: #2EE59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+}
+
+.somebuttons .clear{
+    position: absolute;
+    right: 600px;;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.left{
+    width: 20vw;
+    border: 1px solid green;
+    height: 88vh;
+    padding: 10px;
+}
+.left .subjectMenu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:8px;
+    gap: 10px;
+}
+.left .subjectMenu div{
+    padding: 5px 10px;
+    margin: 10px auto;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.left .subjectMenu div:hover, .left .subjectMenu .selected{
+    box-shadow: 0px 15px 20px rgb(46,109, 164 , 30%);
+    color: #fff;
+    background-color:#2e6da4;
+}
+
+.left .questionMenu{
+    margin-top: 30px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.subject-vis-questionMenu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.left .subject-vis-questionMenu .box{
+    padding: 15px 20px;
+    background-color: lightgray;
+    width: fit-content;
+    border-radius:6px;
+    margin: auto;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+.question{
+    background-image: url(./images/photos/question1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1500px;
+}
+
+
+
+
+
+.resHeading {
+    text-align: center;
+    padding-top:60px;
+}
+.rescont{
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+}
+.rescont table th,.rescont table td{
+    padding: 30px;
+}
+
+
+
+
+
+.hide{
+    display: none;
+}
+.left .subject-vis-questionMenu  .red{
+    background-color: rgb(197, 69, 69)!important;
+    color: white!important;
+    border-radius: 40px;
+}
+.left .subject-vis-questionMenu  .green{
+    background-color: green!important;
+    color: white!important;
+    border-radius: 40px;
+}
+.active{
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+}

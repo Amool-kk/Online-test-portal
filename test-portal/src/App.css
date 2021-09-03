@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homecont {
+    width: 60%;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.homecont ul{
+    margin-top: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.homecont a{
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+}
+.homecont li{
+    cursor: pointer;
+    margin: auto;
+    padding: 10px 20px;
+    color: black;
+}
+
+.homecont li:hover{
+    background-color: lightgray;
+    color: white;
+}
